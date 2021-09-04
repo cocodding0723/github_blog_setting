@@ -18,7 +18,7 @@
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "Cpp" %}
+                    {% if category[0] == "C++" %}
                         <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -26,7 +26,7 @@
         <span class="nav__sub-title">알고리즘</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
+                    {% if category[0] == "알고리즘" %}
                         <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
