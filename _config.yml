@@ -18,7 +18,7 @@ remote_theme : "mmistakes/minimal-mistakes"
 
 # Site Settings
 locale                   : "ko-kr"
-title                    : "개발자 코코"
+title                    : "Developer Coco"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Coco"
@@ -32,7 +32,7 @@ masthead_title           : "개발자 Coco"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "discourse" # false (default), "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : Coco # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
