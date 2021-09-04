@@ -1,7 +1,6 @@
 ---
 
 layout: category
-
 title: Algorithm
 
 ---
